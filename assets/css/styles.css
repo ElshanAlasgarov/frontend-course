@@ -1,5 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* o-курсе */
+.o-курсе * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.o-курсе body {
+    font-family: Roboto, sans-serif;
+    padding: 20px;
+    
+}
+
+.o-курсе {
+    max-width: 1200px;
+    margin: 162px 121px;
+}
+
+.o-курсе .text-and-large-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.o-курсе .text-content {
+    height: 374px;
+    width: 662px;
+    margin-right: 20px;
+}
+
+.o-курсе h1 {
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+
+.o-курсе p {
+    font-size: 24px;
+}
+
+.o-курсе .large-image {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.o-курсе .large-image .img11 {
+    
+    position: relative;
+    margin-top: 65px;
+    width: 314px;
+    height: 315px;
+    margin-bottom: -29px;
+    
+}
+.o-курсе .large-image .img12 {
+    width: 366px;
+    height: 59px;
+   margin-left: -26px;
+}
+.o-курсе .small-image {
+    display: flex;
+    flex-direction: column;
+    
+}
+.o-курсе .small-image .img21 {
+    position: relative;
+   
+    width: 232px;
+    height: 203px;
+    margin-bottom: -16px;
+    
+}
+.o-курсе .small-image .img22 {
+    width: 189px;
+    height: 32px;
+   margin-left: 33px;
+}
+
+.o-курсе .course-details {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.o-курсе .small-image {
+   height: 203px;
+    width: 232px;
+    margin-right: 132px;
+}
+
+.o-курсе .small-image img {
+    width: 100%;
+}
+
+.o-курсе .stats {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+.o-курсе .stat h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.o-курсе .stat p {
+    font-size: 18px;
+}
+
 /* формат-занятий */
 .формат-занятий h1{
     padding-bottom: 89px;
@@ -15,10 +124,14 @@
 }
 .формат-занятий .container{
     display:flex;
-    gap: 40px;
+    gap: 122px;
     font-size: 18px;
     margin-left: 122px;
     font-family: Roboto,sans-serif;
+}
+.формат-занятий .Что-узнаем{
+    margin-top: 180px;
+    padding-bottom: 20px;
 }
 .формат-занятий ul{
     margin-left: 122px;
@@ -42,7 +155,9 @@
 
 .программа-курса {
     max-width: 1200px;
-    margin: 84px;
+    margin-top: 210px;
+    margin-left: 84px;
+    margin-bottom: 121px;
 }
 
 .программа-курса h1 {
