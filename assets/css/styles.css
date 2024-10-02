@@ -21,3 +21,72 @@ h3{
 ul{
     margin-left: 122px;
 }
+/* kурс-прошло */
+.kурс-прошло .container{
+    width: 1440px;
+    height: 780px;
+    background: #EFEFEF;
+
+}
+.kурс-прошло .box{
+    width: 791px;
+    height: 451px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px 30px 30px 30px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-left: 126px;
+    padding-left: 26px;
+    padding-bottom: 29px;
+
+}
+
+
+.kурс-прошло p{
+    width: 791px;
+    height: 451px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 45px;
+    box-sizing: border-box;
+    padding-right: 46px;
+    
+}
+
+.kурс-прошло .header{
+    padding-top: 91px;
+    padding-left: 122px;
+    width: 987px;
+    height: 93px;
+}
+.kурс-прошло .img2{
+    box-sizing: border-box;
+    width: 190px;
+    height: 169px;
+}
+.kурс-прошло h2{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1px;
+}
+.kурс-прошло .photoh1{
+    display: flex;
+
+}
+.kурс-прошло .photo2{
+    width: 32px;
+    height: 31px;
+    padding-bottom: 68px;
+
+}
+.kурс-прошло .boxbox{
+    display: flex;
+    flex-direction: column;
+    height: 92px;
+    padding: 15px
+}
