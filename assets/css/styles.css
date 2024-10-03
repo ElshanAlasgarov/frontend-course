@@ -94,13 +94,14 @@
 
 
 /* kурс-прошло */
-.kурс-прошло .container{
+.kурс-прошло .container {
     width: 100%;
     height: 780px;
     background: #EFEFEF;
-
+    padding-left: 126px;
 }
-.kурс-прошло .box{
+
+.kурс-прошло .box {
     width: 791px;
     height: 451px;
     display: flex;
@@ -108,57 +109,241 @@
     border-radius: 30px 30px 30px 30px;
     box-sizing: border-box;
     background-color: white;
-    margin-left: 126px;
-    padding-left: 26px;
-    padding-bottom: 29px;
-
 }
 
-
-.kурс-прошло p{
-    width: 791px;
-    height: 451px;
+.kурс-прошло p {
+    width: 700px;
+    height: 203px;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-right: 46px;
     line-height: 30px;
     text-align: left;
-    padding-top: 40px;
-    padding-left: 45px;
-    box-sizing: border-box;
-    padding-right: 46px;
-    
 }
 
-.kурс-прошло .header{
-    padding-top: 91px;
-    padding-left: 122px;
+.kурс-прошло h1 {
     width: 987px;
     height: 93px;
+    font-family: Roboto Slab;
+    font-size: 61.5px;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 91px;
+    padding-left: 122;
 }
-.kурс-прошло .img2{
+
+.kурс-прошло .img {
     box-sizing: border-box;
-    width: 190px;
-    height: 169px;
+    width: 210px;
+    height: 200px;
+    padding-left: 26px;
+    padding-bottom: 29px
 }
-.kурс-прошло h2{
+
+.kурс-прошло h2 {
     display: flex;
     flex-direction: column;
-    padding-bottom: 1px;
+    width: 353px;
+    height: 59px;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 40px;
 }
-.kурс-прошло .photoh1{
-    display: flex;
 
+.kурс-прошло .photo1 {
+    display: flex;
 }
-.kурс-прошло .photo2{
+
+.kурс-прошло .photo2 {
     width: 32px;
     height: 31px;
-    padding-bottom: 68px;
-
+    padding-bottom: 86px;
+    padding-left: 20px;
 }
-.kурс-прошло .boxbox{
+
+.kурс-прошло .boxbox {
     display: flex;
     flex-direction: column;
-    height: 92px;
-    padding: 15px
+    height: 100px;
+    padding: 15px;
+    padding-bottom: 100px;
+}
+
+
+
+
+/* tablet */
+ @media (max-width:1280px) and (min-width:991px){
+
+    .kурс-прошло .container {
+        width: 100%;
+        height: 451.75px;
+        background: #EFEFEF;
+        padding-left: 72px;
+
+    }
+
+    .kурс-прошло .box {
+        width: 458.12px;
+        height: 261.2px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px 30px 30px 30px;
+        box-sizing: border-box;
+        background-color: white;
+        padding-left: 3px;
+    }
+
+    .kурс-прошло h1 {
+        width: 571.64px;
+        height: 53.86px;
+        font-family: Roboto Slab;
+        text-align: left;
+        font-size: 36px;
+        font-weight: 700px;
+        line-height: 32.44px;
+        padding-left: 20px;
+        padding-top: 53px;
+    }
+
+    .kурс-прошло p {
+        width: 405.42px;
+        height: 117.57px;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+        width: 405.42px;
+        height: 117.57px;
+        padding-left: 26px;
+        padding-top: 13px;
+    }
+
+    .kурс-прошло .img {
+        box-sizing: border-box;
+        width: 130px;
+        height: 125px;
+        padding-left: 15px;
+    }
+
+    .kурс-прошло h2 {
+        display: flex;
+        flex-direction: column;
+        width: 204.45px;
+        height: 34.17px;
+        font-family: Roboto Slab;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 17.24px;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .kурс-прошло .photo1 {
+        display: flex;
+    }
+
+    .kурс-прошло .photo2 {
+        width: 18.53px;
+        height: 17.95px;
+        padding-left: 5px;
+    }
+
+    .kурс-прошло .boxbox {
+        display: flex;
+        flex-direction: column;
+    }
+} 
+
+
+
+/* mobile */
+@media (max-width:991px) and (min-width: 320px) {
+
+    .kурс-прошло .container {
+        background: #EFEFEF;
+        width: 100%;
+        min-width: 300px;
+        height: 423px;
+        padding-left: 50px;
+    }
+
+    .kурс-прошло .box {
+        width: 328px;
+        height: 248px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px 30px 30px 30px;
+        box-sizing: border-box;
+        background-color: white;
+    }
+
+    .kурс-прошло p {
+        width: 266px;
+        height: 111.01px;
+        font-family: Roboto;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: left;
+    }
+
+    .kурс-прошло h1 {
+        width: 257px;
+        height: 69px;
+        font-family: Roboto Slab;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: left;
+        line-height: 26.36px;
+        padding-left: 16px;
+        padding-top: 42px;
+
+    }
+
+
+
+    .kурс-прошло .img {
+        box-sizing: border-box;
+        width: 125px;
+        height: 120px;
+
+
+    }
+
+    .kурс-прошло h2 {
+        display: flex;
+        flex-direction: column;
+        width: 164.49px;
+        height: 32.73px;
+        font-family: Roboto Slab;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 14.19px;
+        text-align: left;
+        padding-left: 3px;
+
+    }
+
+    .kурс-прошло .photo1 {
+        display: flex;
+    }
+
+    .kурс-прошло .photo2 {
+        width: 14.91px;
+        height: 17.2px;
+        padding-left: 3px;
+    }
+
+    .kурс-прошло .boxboox {
+        display: flex;
+        flex-direction: column;
+    }
 }
