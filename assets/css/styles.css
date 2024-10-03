@@ -137,6 +137,78 @@
     margin-left: 122px;
     font-size: 24px;
 }
+@media(max-width: 991px) and (min-width:320px) {
+    .формат-занятий h1 {
+        padding-bottom: 16.66px;
+        font-size: 26px;
+        margin-left: 36px;
+        margin-right: 28.2px;
+    }
+
+    h3 {
+        color: #1E4681;
+        font-size: 12px;
+        margin-bottom: 0.83px;
+        margin-top: 16.66px;
+
+    }
+
+    .формат-занятий .container {
+        display: flex;
+        flex-direction: column;
+        gap: 29px;
+        font-size: 10px;
+        margin-left: 35px;
+
+    }
+    .Что-узнаем {
+        margin-top: 73px;
+        padding-bottom: 21px;
+        
+    }
+    
+
+    ul {
+        font-size: 9px;
+        margin-right: 32px;
+    }
+
+    .формат-занятий .block {
+        flex-direction: column;
+
+    }
+}
+@media(max-width: 1279px) and (min-width: 992px){ 
+
+
+    .формат-занятий h1{
+        padding-bottom: 51.55px;
+        font-size: 32px;
+        margin-left: 70.08px;
+        margin-bottom: 0px;
+    }
+    
+    .формат-занятий h3{
+        color: #1E4681;
+        font-size: 15px;
+    
+    }
+    .формат-занятий .container{
+        display:flex;
+        gap: 46px;
+        font-size: 11px;
+        margin-left: 71px;
+        font-family: Roboto,sans-serif;
+    }
+    .формат-занятий .Что-узнаем{
+        margin-top: 100px;
+        padding-bottom: 20px;
+    }
+    .формат-занятий ul{
+        margin-left: 50px;
+        font-size: 14px;
+    }
+    } 
 /* программа-курса */
 .программа-курса * {
     margin: 0;
