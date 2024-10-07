@@ -1,3 +1,366 @@
+/* header */
+@media (min-width: 1280px) {
+    .layoutSection {
+        display: block;
+    }
+
+    .courseWrapper {
+        display: flex;
+        flex-direction: column;
+        height: 1040px;
+        row-gap: 5%;
+    }
+
+    .courseWrapper>header>img {
+        width: 112px;
+    }
+
+    .detailsList {
+        display: flex;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Roboto Slab", serif;
+    }
+
+    .detailsList>div {
+        display: flex;
+        gap: 6%;
+        width: 23%;
+    }
+
+    .infoImageGroup {
+        display: flex;
+    }
+
+    .infoText h1 {
+        font-size: 60px;
+        font-weight: 700;
+        font-family: "Roboto Slab", serif;
+        width: 80%;
+        line-height: 90%;
+
+    }
+
+    .infoText>p {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Roboto", serif;
+        width: 49%;
+    }
+
+    .infoText {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10%;
+        width: 58%;
+    }
+
+    .imageContainer {
+        padding-top: 4%;
+        z-index: 2;
+
+    }
+
+    .ellipse {
+        position: absolute;
+        top: 520px;
+        left: 60%;
+        z-index: 1;
+        width: 280px;
+    }
+
+    .ellipse img {
+        width: 250px;
+        height: auto;
+    }
+
+    .quoteBox>div {
+        background-color: #1E4681;
+        width: 40%;
+        color: white;
+        border-radius: 5px;
+        height: 160px;
+        padding: 2%;
+    }
+
+    .quoteBox {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .quoteContent {
+        font-size: 25px;
+        font-weight: 400;
+        font-family: "Roboto Slab", serif;
+        width: 85%;
+    }
+
+    .quoteSource {
+        text-align: end;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Roboto", serif;
+    }
+
+    .contentArea {
+        display: flex;
+        flex-direction: column;
+        row-gap: 62px;
+    }
+}
+
+
+@media(min-width:992px) and (max-width:1279px) {
+
+    .layoutSection {
+        display: block;
+    }
+
+    .courseWrapper {
+        display: flex;
+        flex-direction: column;
+        height: 1040px;
+        row-gap: 5%;
+    }
+
+    .courseWrapper>header>img {
+        width: 65px;
+    }
+
+    .detailsList {
+        display: flex;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Roboto Slab", serif;
+    }
+
+    .detailsList>div {
+        display: flex;
+        gap: 6%;
+        width: 23%;
+        align-items: end;
+    }
+
+    .infoImageGroup {
+        display: flex;
+    }
+
+    .infoText h1 {
+        font-size: 46px;
+        font-weight: 700;
+        font-family: "Roboto Slab", serif;
+        width: 63%;
+        line-height: 90%;
+    }
+
+    .infoText>p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Roboto", serif;
+        width: 44%;
+        line-height: 150%;
+    }
+
+    .infoText {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10%;
+        width: 58%;
+    }
+
+    .imageContainer {
+        padding-top: 12%;
+        width: 85%;
+        z-index: 2;
+
+    }
+
+    .ellipse {
+        position: absolute;
+        z-index: 1;
+        width: 280px;
+        bottom: 360px;
+        left: 43%;
+
+    }
+
+    .ellipse img {
+        width: 250px;
+        height: auto;
+    }
+
+    .quoteBox>div {
+        background-color: #1E4681;
+        width: 40%;
+        color: white;
+        border-radius: 5px;
+        height: 105px;
+        padding: 2%;
+    }
+
+    .quoteBox {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .quoteContent {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Roboto Slab", serif;
+        width: 73%;
+    }
+
+    .quoteSource {
+        text-align: end;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Roboto", serif;
+    }
+
+    .contentArea {
+        display: flex;
+        flex-direction: column;
+        row-gap: 62px;
+    }
+}
+
+
+@media(min-width:320px) and (max-width:991px) {
+    .layoutSection {
+        display: block;
+    }
+
+    .courseWrapper {
+        display: flex;
+        margin-top: 3%;
+        flex-direction: column;
+        height: 725px;
+        row-gap: 5%;
+    }
+
+    .courseWrapper>header>img {
+        width: 53px;
+    }
+
+    .detailsList {
+        display: flex;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: "Roboto Slab", serif;
+        column-gap: 3%;
+    }
+
+    .detailsList img {
+        width: 14%;
+    }
+
+    .detailsList>div {
+        display: flex;
+        gap: 6%;
+        width: 23%;
+        align-items: end;
+    }
+
+    .infoImageGroup {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infoText h1 {
+        font-size: 46px;
+        font-weight: 700;
+        font-family: "Roboto Slab", serif;
+        width: 100vw;
+        line-height: 90%;
+    }
+
+    .infoText>p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Roboto", serif;
+        width: 68%;
+        line-height: 150%;
+        bottom: 3000px;
+    }
+
+    .infoText {
+        display: flex;
+        flex-direction: column;
+        row-gap: 22px;
+    }
+
+    .imageContainer>img {
+        width: 168px;
+    }
+
+    .imageContainer {
+        display: flex;
+        justify-content: flex-end;
+        z-index: 2;
+        position: absolute;
+        bottom: 630px;
+        left: 95%;
+        z-index: 2;
+
+    }
+
+    .ellipse {
+        position: absolute;
+        bottom: 620px;
+        z-index: 1;
+        width: 180px;
+        left: 95%;
+    }
+
+    .ellipse img {
+        width: 250px;
+        height: auto;
+    }
+
+    .quoteBox>div {
+        background-color: #1E4681;
+        color: white;
+        border-radius: 5px;
+        height: 90px;
+        padding: 6%;
+    }
+
+    .quoteBox {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .quoteContent {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Roboto Slab", serif;
+        width: 90%;
+    }
+
+    .quoteSource {
+        text-align: end;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Roboto", serif;
+    }
+
+    .contentArea {
+        display: flex;
+        flex-direction: column;
+        row-gap: 62px;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* o-курсе */
